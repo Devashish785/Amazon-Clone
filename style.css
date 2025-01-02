@@ -1,0 +1,329 @@
+*{
+    margin : 0px;
+    font-family: Arial;
+    border : border-box; /* Border width and padding count in content    area or content height */
+     
+}
+
+/* For Nav Bar */
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color : white;
+    display : flex;
+    align-items: center;
+    justify-content : space-evenly;
+
+}
+
+.nav-logo {
+    height : 50px;
+    width : 100px;
+}
+
+.logo {
+    background-image: url("Amazon-logo.jpg");
+    background-size : cover;
+    height : 50px;
+    width : 100%;
+}
+
+.border {
+    border : 1.2px solid transparent;
+}
+
+.border:hover {
+    border : 1.2px solid white;
+}
+
+/* box2 */
+.add-first {
+    color : #cccccc;
+    margin-left : 14px;
+    font-size : 0.7rem; /* we use rem because to make our website responsive */
+
+}
+
+.add-second {
+    font-size : 1rem;
+    margin-left : 2px;
+    font-weight: 700;
+}
+
+.add-icon {
+    display : flex;
+    align-items: center;
+}
+
+/* box3 */
+.nav-search {
+    display : flex;
+    justify-content: space-evenly; 
+    background-color :aqua;
+    width : 900px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+
+.nav-search:hover{
+    border : 2px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width : 50px;
+    text-align : center;
+    border-top-left-radius : 4px;
+    border-bottom-left-radius : 4px;
+    border : none;
+}
+
+.search-input {
+    width : 100%;
+    font-size: 1rem;
+    border : none;
+}
+
+.search-icon {
+    width : 45px;
+    display : flex;
+    justify-content: center; /* for horizontal center */
+    align-items: center; /* for vertical center */
+    font-size : 1.3rem; /* use to magnify search icon */
+    background-color: #ffaf46;
+    border-top-right-radius : 4px;
+    border-bottom-right-radius : 4px;
+    color : #0F1111;
+}
+
+
+/* box4 */
+span {
+    font-size : 0.8rem;
+}
+
+.nav-second {
+    font-size : 0.88rem;
+    font-weight: 700;
+}
+
+
+/* box5 */
+.nav-cart i {  /* we use this method to set size of icon only */
+    font-size : 30px; 
+}
+
+.nav-cart {
+    font-size : 0.88rem;
+    font-weight: 570;
+}
+
+/* Panel */
+.panel {
+    height : 40px;
+    background-color : #222f3d;
+    display : flex;
+    color : white;
+    align-items : center;
+    justify-content : space-evenly;
+}
+
+.panel-options p {  /* we use "p" here because to set paragraph */
+    display : inline;
+    margin-left: 12px;
+}
+
+.panel-options {
+    width : 95%;
+    font-size : 0.9rem;
+    
+}
+
+/* Hero Section */
+.hero-section {
+    background-image : url("Box-6.jpg");
+    height : 325px;
+    background-size : cover;
+    display : flex;
+    justify-content: center;
+    align-items : flex-end;
+}
+
+.hero-message {
+    background-color : white;
+    color : black;
+    height: 40px;
+    font-size : 0.9rem;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width : 96%;
+    margin-bottom: 28px;
+
+}
+
+.hero-message a {
+    color : #2162A1;
+}
+
+
+/* shop section */
+.shop-section {
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color : #eeeeee;
+}
+
+.box{
+    
+    height : 360px;
+    width : 23%;
+    background-color : white;
+    padding : 20px 0px 15px; 
+    margin-top : 10px; 
+}
+
+.box1-image {
+    background-image : url("panel-box1.jpg");
+    background-size : cover;
+    height: 300px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    
+}
+
+.box-content {
+    margin-left : 18px;
+    margin-right : 18px;
+}
+
+.box-content p {
+    color : #2162A1;
+}
+
+.box2-image {
+    background-image : url("panel-box2.jpg");
+    background-size : cover;
+    height: 300px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    
+}
+
+.box3-image {
+    background-image : url("panel-box3.jpg");
+    background-size : cover;
+    height: 300px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    
+}
+
+.box4-image {
+    background-image : url("panel-box4.png");
+    background-size : cover;
+    height: 300px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    
+}
+
+.box5-image {
+    background-image : url("panel-box5.png");
+    background-size : cover;
+    height: 300px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    
+}
+
+.box6-image {
+    background-image : url("panel-box6.png");
+    background-size : cover;
+    height: 300px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    
+}
+
+.box7-image {
+    background-image : url("panel-box7.png");
+    background-size : cover;
+    height: 300px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    
+}
+
+.box8-image {
+    background-image : url("panel-box8.png");
+    background-size : cover;
+    height: 300px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    
+}
+
+/* footer */
+footer {
+    margin-top : 18px;
+}
+.foot-panel1 {
+    background-color: #37475a;
+    color : white;
+    height: 50px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 0.8rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color : white;
+    height : 500px;
+    display : flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top : 40px;
+    
+}
+
+ul a {
+    display : block; /* sare ke sare unorder listsingle line me aa jayenge */
+    font-size : 0.8rem;
+    color : #dddddd;
+    margin-top: 10px;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color : white;
+    border-top : 0.5px solid #9d9a9a;
+    height: 70px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4 {
+    background-color: #131A22;
+    color : #dddddd;
+    height: 70px;
+    font-size : 0.7rem;
+    text-align: center;
+}
+
+.pages {
+    padding-top : 16px; 
+}
+
+.copyright {
+    padding-top : 5px;
+}
+
+
